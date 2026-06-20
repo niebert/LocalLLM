@@ -37,6 +37,12 @@ To list all available (i.e. locally downloaded) LLMs in Ollama on your Linux mac
 ```sh
 ollama list
 ```
+### Pull a specific LLM 
+To download a specific LLM you can pull the LLM with the following command to your local machine to run offline:
+```sh
+ollama pull mistral
+```
+Downloading takes a while ....
 
 
 ## Image to 3D Model
