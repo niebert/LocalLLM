@@ -18,3 +18,8 @@ curl -fsSL https://raw.githubusercontent.com/continuedev/continue/main/extension
 
 ## Image to 3D Model
 Convert an 2D image into a 3D model that students can work on in [Blender](https://www.blender.org/) UTL: https://www.blender.org/.
+
+### AnyDepth2 
+Depth map is a 2D image that encodes the depth as 3rd dimension with colors or grey scale image.
+* GitHub-URL:  https://github.com/DepthAnything/Depth-Anything-V2
+* Interactive Webinterface: https://huggingface.co/spaces/depth-anything/Depth-Anything-V2
