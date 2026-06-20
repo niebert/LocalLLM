@@ -6,7 +6,7 @@ The implementation of local code completion requires the following tools:
 * Integrated Development Environment - tested [VS Codium](https://vscodium.com/) URL: https://vscodium.com/
 * Install Continue locally on your computer (Linux computer) 
 
-`´`bash
+`´`
 curl -fsSL https://raw.githubusercontent.com/continuedev/continue/main/extensions/cli/scripts/install.sh | bash
 ```
 
