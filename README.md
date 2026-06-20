@@ -52,3 +52,4 @@ Convert an 2D image into a 3D model that students can work on in [Blender](https
 Depth map is a 2D image that encodes the depth as 3rd dimension with colors or grey scale image.
 * GitHub-URL:  https://github.com/DepthAnything/Depth-Anything-V2
 * Interactive Webinterface: https://huggingface.co/spaces/depth-anything/Depth-Anything-V2
+* Youtube Video: Blender Depthmap - https://www.youtube.com/watch?v=7_9uS2ixBCs
