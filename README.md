@@ -16,10 +16,29 @@ curl -fsSL https://raw.githubusercontent.com/continuedev/continue/main/extension
    * [Ollama](https://ollama.com/).
      
 ## Ollama
-Start ollama server
+The following commands are mentioned in the following sections.
+* start ollama service on Linux
+* stop ollama service on Linux
+* list downloaded models
+* download/pull a specific model
+
+### Start Ollama service
+To start ollama on your Linux machine call the following command to start the ollama server
 ```sh
-ollama serve start
+ollama serve &
 ```
+### Stop Ollama service
+To start ollama on your Linux machine call the following command to stop the ollama server
+```sh
+sudo systemctl stop ollama.service
+```
+### List Ollama Models
+To list all available (i.e. locally downloaded) LLMs in Ollama on your Linux machine you call the following command
+```sh
+ollama list
+```
+
+
 ## Image to 3D Model
 Convert an 2D image into a 3D model that students can work on in [Blender](https://www.blender.org/) UTL: https://www.blender.org/.
 
