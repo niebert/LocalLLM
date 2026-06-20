@@ -15,7 +15,11 @@ curl -fsSL https://raw.githubusercontent.com/continuedev/continue/main/extension
 * local LLM to performing the task of code completion - tests for
    * [Ollama](https://ollama.com/).
      
-
+## Ollama
+Start ollama server
+```sh
+ollama serve start
+```
 ## Image to 3D Model
 Convert an 2D image into a 3D model that students can work on in [Blender](https://www.blender.org/) UTL: https://www.blender.org/.
 
