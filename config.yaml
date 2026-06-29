@@ -2,9 +2,9 @@ name: Linux Continue Local LLM Config
 version: 0.0.1
 schema: v1
 models:
-  - name: Autodetect
+  - name: CodeStral
     provider: ollama
-    model: AUTODETECT
+    model: codestral:latest
     apiBase: http://localhost:11434
     roles:
       - chat
