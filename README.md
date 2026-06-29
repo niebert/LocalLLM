@@ -44,6 +44,35 @@ ollama pull mistral
 ```
 Downloading takes a while ....
 
+## Continue - Code Completion 
+Continue.dev is a configurable open-source AI coding assistant that can be run from the console and with an IDE like [VS Codium](https://vscodium.com/).
+
+### Config Files of Continue
+On Linux the config file of continue is stored in the subdirectory `.continue` of your home directory. An example `config.yaml` is provided in this repository.
+```yaml
+ame: Continue Config for Linux
+version: 0.0.1
+schema: v1
+models:
+  - name: Codestral
+    provider: ollama
+    model: codestral:latest
+    apiBase: http://localhost:11434
+    systemMessage: "provide just the code as source code"
+    roles:
+      - chat
+      - edit
+      - apply
+      - rerank
+      - autocomplete
+```
+
+### Call Continue from Shell
+To check your installation before calling the code assistant form your IDE you can test Continue with a specific Config.
+```sh
+cn --config ./continue/config.yaml
+```
+
 
 ## Image to 3D Model
 Convert an 2D image into a 3D model that students can work on in [Blender](https://www.blender.org/) UTL: https://www.blender.org/.
